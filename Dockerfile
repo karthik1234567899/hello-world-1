@@ -1,6 +1,6 @@
 # Pull base image 
-From nginx:1.20 
+From tomcat 
 
 # Maintainer 
 MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/nginx/webapps
+COPY ./webapp.war /usr/local/tomcat/webapps
